@@ -23,14 +23,14 @@ name                     : "Nam"
 description              : "Nam's tech blog."
 url                      : "https://rlaskarl77.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "rlaskarl77/rlaskarl77.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : # "rlaskarl77/rlaskarl77.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Nam"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "아카이브용 블로그입니다."
   location         : "Somewhere"
   email            :
   links:
@@ -275,8 +275,9 @@ defaults:
       type: posts
     values:
       layout: single
+      show_date: true
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
