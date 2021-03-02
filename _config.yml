@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Nam"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "아카이브용 블로그입니다."
+  bio              : ""
   location         : "Somewhere"
   email            :
   links:
