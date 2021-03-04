@@ -10,3 +10,9 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+docs:
+- title: "Test"
+  children:
+    - title: "Test-page"
+      url: /new_post/
