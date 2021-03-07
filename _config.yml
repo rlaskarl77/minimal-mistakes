@@ -344,7 +344,7 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
 
   # jekyll-archives
@@ -352,11 +352,14 @@ defaults:
       path: ""
       type: tag
     values:
+      author_profile: true
       comments: false
+
   - scope:
       path: ""
       type: category
     values:
+      author_profile: true
       comments: false
 
 collections:

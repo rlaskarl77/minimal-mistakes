@@ -1,7 +1,6 @@
 ---
 title: Blog-Log
 author: Nam
-layout: single
 category: Jekyll
 
 ---
