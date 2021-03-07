@@ -24,7 +24,11 @@ main:
   #   url: /sitemap/
 
 docs:
-- title: "Test"
-  children:
-    - title: "Test-page"
-      url: /new_post/
+  - title: Algorithms
+    childrens:
+      - title: Introduction to Algorithms
+        url: /categories/#introduction-to-algorithms
+  - title: Blog
+    childrens:
+      - title: Jekyll
+        url: /categories/#jekyll
