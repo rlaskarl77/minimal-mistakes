@@ -25,10 +25,12 @@ main:
 
 docs:
   - title: Algorithms
+    url: /categories/#introduction-to-algorithms
     childrens:
       - title: Introduction to Algorithms
         url: /categories/#introduction-to-algorithms
   - title: Blog
+    url: /categories/#jekyll
     childrens:
       - title: Jekyll
         url: /categories/#jekyll
