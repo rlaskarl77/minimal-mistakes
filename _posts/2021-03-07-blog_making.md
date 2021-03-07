@@ -1,6 +1,5 @@
 ---
 title: Blog-Log
-author: Nam
 category: Jekyll
 
 ---

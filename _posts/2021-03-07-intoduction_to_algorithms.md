@@ -1,6 +1,5 @@
 ---
 title: Introduction to Algorithms - Intro
-author: Nam
 category: Introduction to Algorithms
 
 header:
