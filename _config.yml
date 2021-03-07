@@ -13,93 +13,92 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
-title                    : "Nam's Blog"
-title_separator          : "|"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Nam"
-description              : "Nam's tech blog."
-url                      : "https://rlaskarl77.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "rlaskarl77/blog-comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+locale: "ko-KR"
+title: "Nam's Blog"
+title_separator: "|"
+subtitle: # site tagline that appears below site title in masthead
+name: "Nam"
+description: "Nam's tech blog."
+url: "https://rlaskarl77.github.io"
+baseurl: "" # the subpath of your site, e.g. "/blog"
+repository: "rlaskarl77/blog-comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser: # "/assets/images/cat_eyes.svg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: "/assets/images/logo_n.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: "Nam" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute: 200
 comments:
-  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid:
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme: # "github-light" (default), "github-dark"
+    issue_term: # "pathname" (default)
   staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch: # "master"
+    endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey:
+  secret:
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-  hide                   : true # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+  path: # blank (default) uses feed.xml
+  hide: true # true, false (default)
+search: # true, false (default)
+search_full_content: # true, false (default)
+search_provider: # lunr (default), algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id: # YOUR_SEARCH_ENGINE_ID
+  instant_search: # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+google_site_verification:
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
 
 # Social Sharing
 twitter:
-  username               :
+  username:
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+  username:
+  app_id:
+  publisher:
+og_image: # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : G-WZYWZWTCZ6
-    anonymize_ip         : # true, false (default)
-
+    tracking_id: G-WZYWZWTCZ6
+    anonymize_ip: # true, false (default)
 
 # Site Author
 author:
-  name             : "Nam"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Study Log"
-  location         : "Bundang, Korea"
-  email            :
+  name: "Nam"
+  avatar: "/assets/images/cat_eyes_logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "Study Log"
+  location: "Bundang, Korea"
+  email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -134,14 +133,13 @@ footer:
       url: "https://github.com/rlaskarl77"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url: 
+      # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-
 
 # Reading Files
 include:
@@ -180,14 +178,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -200,12 +196,10 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 permalink: /:categories/:title/
@@ -213,6 +207,60 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Seoul
 
+# Pagination
+pagination:
+  # Site-wide kill switch, disabled here it doesn't run at all
+  enabled: true
+
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: false
+
+  # The default document collection to paginate if nothing is specified ('posts' is default)
+  collection: "posts"
+
+  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
+  per_page: 10
+
+  # The permalink structure for the paginated pages (this can be any level deep)
+  permalink: "/page/:num/" # Pages are index.html inside this folder (default)
+  #permalink: '/page/:num.html' # Pages are simple html files
+  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
+
+  # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
+  title: ":title - page :num"
+
+  # Limit how many pagenated pages to create (default: 0, means all)
+  limit: 0
+
+  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
+  sort_field: "date"
+
+  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
+  sort_reverse: true
+
+  # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
+  category: "posts"
+
+  # Optional, the default tag to use, omit to disable
+  tag: ""
+
+  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts,
+  # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
+  locale: ""
+
+  # Optional,omit or set both before and after to zero to disable.
+  # Controls how the pagination trail for the paginated pages look like.
+  trail:
+    before: 2
+    after: 2
+
+  # Optional, the default file extension for generated pages (e.g html, json, xml).
+  # Internally this is set to html by default
+  extension: html
+
+  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
+  # Without file extension
+  indexpage: "index"
 
 # Plugins (previously gems:)
 plugins:
@@ -230,7 +278,6 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -242,23 +289,22 @@ whitelist:
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
+  type: jekyll-archives #liquid
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives #liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -266,7 +312,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
 
 # Defaults
 defaults:
@@ -301,6 +346,18 @@ defaults:
       layout: single
       author_profile: false
       share: true
+
+  # jekyll-archives
+  - scope:
+      path: ""
+      type: tag
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: category
+    values:
+      comments: false
 
 collections:
   portfolio:
