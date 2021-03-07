@@ -2,6 +2,7 @@
 title: Guest Book
 layout: single
 author_profile: false
+comments: true
 permalink: /guestbook/
 ---
 
